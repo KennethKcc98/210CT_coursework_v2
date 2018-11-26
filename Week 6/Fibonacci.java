@@ -1,4 +1,5 @@
 import java.util.*;
+/*Q9 advanced execrise*/
 public class Fibonacci {
     public static void main(String [ ] args) {
         Scanner s = new Scanner(System.in);
@@ -10,9 +11,7 @@ public class Fibonacci {
             }
 
             System.out.print(fibonacci(n,1,1));
-            
-            
-            
+
         }catch(InputMismatchException ex){
             System.out.print("Please input number!");
         }

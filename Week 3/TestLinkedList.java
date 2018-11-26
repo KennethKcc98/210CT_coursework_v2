@@ -6,8 +6,6 @@ public class TestLinkedList {
 		LinkedListQ5 s = new LinkedListQ5(); //Week 3 Q5
 		System.out.println(s);
 		System.out.println();
-
-		
 		
 		s.addToHead (42);
 		System.out.println(s);
@@ -23,22 +21,5 @@ public class TestLinkedList {
 			System.out.println(s);
 			System.out.println();
 		}
-
-		
-		
-		/*s.addToHead (new Integer(42));
-		System.out.println(s);
-		System.out.println();
-		s.addToHead (new Character('n'));
-		System.out.println(s);
-		System.out.println();
-		s.addToHead (new String("hello"));
-		System.out.println(s);
-		System.out.println();
-		while (!s.isEmpty()) {
-			System.out.println("removed:" + s.removeFromTail());
-			System.out.println(s);
-			System.out.println();
-		}*/
 	}
 } // class TestLinkedList

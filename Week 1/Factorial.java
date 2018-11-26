@@ -21,7 +21,7 @@ public class Factorial{
                 throw new Exception("number 2 should less than 231");
             }
 
-            
+            //if m cannot divides by n!, print error message
             if (factorial(n)%m==0){
                 System.out.println(m+" can divides "+n+"!");
             }else{
@@ -42,7 +42,7 @@ public class Factorial{
 
     public static long factorial(int n){
         long ans;
-        if(n == 1|| n==0){
+        if(n == 1|| n==0){//Because 0! and 1! is 1, return 1
             ans =1;
         }else{
             ans = n*factorial(n-1);

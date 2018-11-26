@@ -1,7 +1,8 @@
 import java.util.*;
 public class Fibonacci{
     public static long fibonacci(int n,int t1,int t2){
-        for (int i = 1; i <= n; ++i)
+        //n is trems of display, t1 and t2 is initialized to first two terms of the Fibonacci serie
+		for (int i = 1; i <= n; ++i)
         {
             System.out.print(t1 + " ");
             int sum = t1 + t2;
